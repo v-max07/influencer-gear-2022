@@ -271,3 +271,21 @@ footer{
 
 
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    nav .nav--items{
+        display: none;
+    }
+    .header-top{
+        padding: 0px 77px;
+    }
+    .popular-collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .popular-item{
+        margin: 10px auto;
+    }
+    .popular-collections{
+        height: 100%;
+    }
+}
