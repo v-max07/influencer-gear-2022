@@ -179,7 +179,7 @@ nav{
 
 .collection-seeMore{
     margin: 0px auto;
-    width: 950px;
+    width: 65%;
     height: 10px;
     position: relative;
 }
@@ -190,10 +190,12 @@ nav{
     text-decoration: none;
     margin-top: 5px;
     padding: 10px;
+    background-color: rgb(175, 169, 169);
+    border-radius: 4px;
 }
 
 .seeMore>span, .seeMore>.arrow{
-    color: #E02C6DDE;
+    color: #ffff;
     font-weight: 700;
     font-size: 18px;
 }
@@ -268,6 +270,15 @@ footer{
     .popular-collections{
         height: 100%;
     }
+    .collection-seeMore{
+        width: 85%;
+    }
+    .collection-seeMore .seeMore{
+        top: 0px;
+        left: 0px;
+    }
+
+    
 
 
 }
@@ -287,5 +298,12 @@ footer{
     }
     .popular-collections{
         height: 100%;
+    }
+    .collection-seeMore{
+        width: 90%;
+    }
+    .collection-seeMore .seeMore{
+        top: 0px;
+        left: 0px;
     }
 }
