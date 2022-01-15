@@ -190,12 +190,12 @@ nav{
     text-decoration: none;
     margin-top: 5px;
     padding: 10px;
-    background-color: rgb(175, 169, 169);
+    background-color: rgb(233, 229, 229);
     border-radius: 4px;
 }
 
 .seeMore>span, .seeMore>.arrow{
-    color: #ffff;
+    color: #e02c6e;
     font-weight: 700;
     font-size: 18px;
 }
@@ -212,6 +212,7 @@ footer{
     text-align: center;
     line-height: 35px;
     height: 220px;
+    border-top: 1px solid #e02c6e;
 }
 
 .footer-info{
@@ -222,6 +223,32 @@ footer{
     margin-right: 7px;
 }
 
+/*--------------------------------*\
+    get in touch section style
+\*--------------------------------*/
+.get_in_touch-div{
+    background-color: #e02c6ecc;
+    color: rgb(254, 255, 255);
+    text-align: center;
+    line-height: 35px;
+    height: 220px;
+    padding-top: 20px;
+}
+.get_in_touch-div>p{
+    margin: 10px 0px;
+}
+.get_in_touch-div > a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #E02C6DDE;
+    padding: 15px 40px;
+}
+
+.get_in_touch-div > a:hover{
+    background-color: #E02C6DDE;
+    color: rgb(255, 255, 255);
+} 
 
 
 /*--------------------------------*\
